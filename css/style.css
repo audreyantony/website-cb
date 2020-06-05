@@ -1,0 +1,313 @@
+/*
+    font-family: 'Lexend Tera', sans-serif;      TITRE
+    font-family: 'Montserrat', sans-serif;       TEXTE (0,200;0,300;0,400;1,200;1,300;1,400)
+
+    #0A1225 -- rgba(10, 18, 37, 1)  = NAVY BLUE
+    #6A080F -- rgba(106, 8, 15, 1)  = BURGUNDY
+    NOR WHITE
+*/
+
+
+* {
+    margin: 0 auto;
+    padding: 0;
+}
+
+body {
+    width : 100%;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    text-align: center;
+}
+
+/* HEADER */
+
+header {
+    width: 95%;
+    height: 120px;
+}
+
+header h1 {
+    font-family: 'Lexend Tera', sans-serif;
+    font-size: 2em;
+    margin: 28px 0 0 8%;
+    float: left;
+    color: #0A1225;
+}
+
+header nav {
+    text-transform: uppercase;
+    float: right;
+    margin: 38px 8% 0 0;
+}
+
+header nav ul {
+    list-style-type: none;
+}
+
+header nav ul li {
+    float: left;
+}
+
+header nav ul li a {
+    display: inline-block;
+    padding: 8px;
+    text-decoration: none;
+    color: #0A1225;
+}
+
+header nav ul li a::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 1px;
+    background-color: #0A1225;
+    transition: width .3s;
+}
+
+header nav ul li a:hover:after {
+    width: 100%;
+}
+
+@media screen and (max-width:1100px) {
+    header h1 {
+        font-size: 1.6em;
+        margin: 15px auto;
+        width: 100%;
+    }
+    header nav {
+        width: 100%;
+        margin: 8px 5px;
+        font-size: 0.7em;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-between;
+        align-content: start;
+    }
+}
+
+/* DERNIERE SORTIE*/
+
+#thefreshone {
+    width: 100%;
+    margin: 0;
+    height: 350px;
+    background-blend-mode: multiply;
+    background-image:url("../img/openbook.jpg");
+    background-color: #0A1225;
+    background-size: cover;
+    color: white;
+}
+
+#thefreshone .contenu {
+    width: 60%;
+    max-height: 330px;
+    float: left;
+    margin-top: 10px;
+}
+
+#thefreshone .contenu h2 {
+    margin: 8% 5%;
+    font-family: 'Lexend Tera', sans-serif;
+}
+
+#thefreshone .contenu p {
+    margin: 5%;
+    padding: 0 5%;
+    text-align: justify;
+    font-weight: 200;
+}
+
+a button {
+    background-color: rgba(106, 8, 15, 0.8);
+    border: none;
+    color: white;
+    padding: 10px 22px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 0.9em;
+    font-weight: 200;
+    letter-spacing: 2px;
+}
+
+a button:hover {
+    background-color: #6A080F;
+    cursor: pointer;
+}
+
+#thefreshone a button {
+    float: right;
+    margin: 150px 15% auto auto;
+}
+
+@media screen and (max-width:1100px) {
+    #thefreshone .contenu {
+        width: 100%;
+    }
+    #thefreshone .contenu h2 {
+        margin: 4%;
+        transform: scale(0.9);
+    }
+    #thefreshone .contenu p {
+        font-size: 0.8em;
+    }
+    #thefreshone a button {
+        float: none;
+        margin: 0;
+    }
+}
+
+/* SECTION ACCUEIL */
+
+#accueil {
+    margin-top: 50px;
+    width: 100%;
+    color: #0A1225;
+}
+
+#accueil h2 {
+    font-size: 2em;
+    font-weight: 200;
+    margin: 0 auto;
+    padding: 35px;
+}
+
+#accueil .conteneur-flex {
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: space-around;
+}
+
+#accueil .conteneur-flex .flex {
+    width: 250px;
+    height: 450px;
+    flex: 0 0 auto;
+    margin: 40px 20px;
+    border: 1px solid #0A1225;
+}
+
+#accueil .conteneur-flex .flex h4 {
+    font-size: 3em;
+    font-weight: 400;
+    font-style: italic;
+    margin-top: -20px;
+}
+
+#accueil .conteneur-flex .flex h3 {
+    font-size: 2em;
+    font-weight: 400;
+    padding: 20px;
+    background-color: rgba(255,255,255,0.5);
+    margin-top: -40px;
+}
+
+#accueil .conteneur-flex .flex h5 {
+    padding: 0 20px 10px 20px;
+    font-weight: 200;
+    font-style: italic;
+}
+
+#accueil .conteneur-flex .flex img {
+    width: 200px;
+    margin-top: -10px;
+}
+
+#accueil .conteneur-flex .flex a button {
+    margin: 10px auto;
+}
+
+#accueil .boutonsimple {
+    width: 30%;
+    height: auto;
+    margin: 0 auto 50px auto;
+    text-align: center;
+}
+
+@media screen and (max-width:1100px) {
+    #accueil h2 {
+        font-size: 1.5em;
+        padding: 15px;
+    }
+    #accueil .boutonsimple {
+        width: 55%;
+    }
+}
+
+/* A PROPOS */
+
+.a-propos {
+    width: 90%;
+    margin-bottom: 50px;
+}
+
+.a-propos img {
+    float: left;
+    width: 550px;
+    padding-left: 18%;
+    position: relative;
+    top: 20px;
+    z-index: 0;
+}
+
+.a-propos div {
+    height: 250px;
+    width: 25%;
+    position: relative;
+    float: right;
+    right: 18%;
+    z-index: 1;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: space-around;
+}
+ .a-propos div a {
+    flex: 0 0 auto;
+    margin: 20px 50px;
+}
+
+@media screen and (max-width:1100px) {
+    .a-propos img {
+        float: left;
+        width: 250px;
+        padding-left: 8%;
+        position: relative;
+        top: 20px;
+        z-index: 0;
+    }
+    .a-propos div {
+        height: 120px;
+        width: 55%;
+        right: 5%;
+        top: -90px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.small-italic {
+    font-size: 0.6em;
+    font-weight: 200;
+    font-style: italic;
+}
