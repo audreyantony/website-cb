@@ -95,7 +95,7 @@ header nav ul li a:hover:after {
 #thefreshone {
     width: 100%;
     margin: 0;
-    height: 350px;
+    height: 450px;
     background-blend-mode: multiply;
     background-image:url("../img/openbook.jpg");
     background-color: #0A1225;
@@ -142,7 +142,7 @@ a button:hover {
 
 #thefreshone a button {
     float: right;
-    margin: 150px 15% auto auto;
+    margin: 180px 15% auto auto;
 }
 
 @media screen and (max-width:1100px) {
@@ -324,6 +324,35 @@ footer div ul li a::after {
 
 footer div ul li a:hover:after {
     width: 100%;
+}
+
+.linkandcopyright {
+    background-color: #0A1225;
+    width: 100%;
+    color: white;
+    float: right;
+    margin-top: 85px;
+}
+
+.linkandcopyright h3 {
+    text-decoration: none;
+    font-weight: 200;
+    font-size: 0.8em;
+    display: inline-block;
+    float: left;
+    margin: 60px;
+    padding-left: 35px;
+}
+
+.linkandcopyright div {
+    padding-right: 50px;
+}
+
+.linkandcopyright div a img {
+    width: 40px;
+    display: inline-block;
+    margin: 20px;
+    float: right;
 }
 
 /* AUTRES */

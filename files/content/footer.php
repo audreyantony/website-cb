@@ -18,8 +18,11 @@
 
     <div class="linkandcopyright">
         <h3>claude BUCCELLA © 2020</h3><br>
-        <a href="https://www.facebook.com/" target="_blank"><img src="img/reseauxsociaux/facebook.png" alt="facebook" title="Aller vers ma page Facebook" ></a>
-        <a href="https://www.instagram.com/" target="_blank"><img src="img/reseauxsociaux/instagram.png" alt="instagram" title="Aller vers ma page Instagram"></a>
+        <div>
+            <a href="https://www.facebook.com/" target="_blank"><img src="img/socialm/facebook.png" alt="facebook" title="Aller vers ma page Facebook" ></a>
+            <a href="https://www.instagram.com/" target="_blank"><img src="img/socialm/instagram.png" alt="instagram" title="Aller vers ma page Instagram"></a>
+            <a href="https://www.twitter.com/" target="_blank"><img src="img/socialm/twitter.png" alt="twitter" title="Aller vers ma page Twitter"></a>
+        </div>
     </div>
 
 </footer>
