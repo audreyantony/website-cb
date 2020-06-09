@@ -30,7 +30,6 @@
         <a href="#"><button>Voir toute les séries d'histoires</button></a>
     </div>
     <div class="a-propos">
-        <img src="img/stylo.jpg" alt="stylo">
         <div>
             <a href="?a-propos"><button>À propos</button></a>
             <a href="?contact"><button>Contact</button></a>

@@ -24,13 +24,13 @@ body {
 
 header {
     width: 95%;
-    height: 120px;
+    height: 200px;
 }
 
 header h1 {
     font-family: 'Lexend Tera', sans-serif;
     font-size: 2em;
-    margin: 28px 0 0 8%;
+    margin: 68px 0 0 5%;
     float: left;
     color: #0A1225;
 }
@@ -38,7 +38,7 @@ header h1 {
 header nav {
     text-transform: uppercase;
     float: right;
-    margin: 38px 8% 0 0;
+    margin: 78px 5% 0 0;
 }
 
 header nav ul {
@@ -70,6 +70,9 @@ header nav ul li a:hover:after {
 }
 
 @media screen and (max-width:1100px) {
+    header {
+        height: 140px;
+    }
     header h1 {
         font-size: 1.6em;
         margin: 15px auto;
@@ -224,7 +227,7 @@ a button:hover {
 #accueil .boutonsimple {
     width: 30%;
     height: auto;
-    margin: 0 auto 50px auto;
+    margin: 40px auto 50px auto;
     text-align: center;
 }
 
@@ -241,70 +244,89 @@ a button:hover {
 /* A PROPOS */
 
 .a-propos {
-    width: 90%;
-    margin-bottom: 50px;
-}
-
-.a-propos img {
-    float: left;
-    width: 550px;
-    padding-left: 18%;
-    position: relative;
-    top: 20px;
-    z-index: 0;
+    width: 800px;
+    margin: 100px auto;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url('../img/stylo.jpg');
+    height: 250px;
 }
 
 .a-propos div {
+    background-color: #0A1225;
+    width: 30%;
     height: 250px;
-    width: 25%;
     position: relative;
-    float: right;
-    right: 18%;
-    z-index: 1;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: space-around;
-    align-content: space-around;
+    left: 35%;
 }
- .a-propos div a {
-    flex: 0 0 auto;
-    margin: 20px 50px;
+
+ .a-propos div a button{
+    margin: 60px 50px 0 50px;
 }
 
 @media screen and (max-width:1100px) {
-    .a-propos img {
-        float: left;
-        width: 250px;
-        padding-left: 8%;
-        position: relative;
-        top: 20px;
-        z-index: 0;
+    .a-propos {
+        width: 70%;
+        height: 250px;
     }
     .a-propos div {
-        height: 120px;
-        width: 55%;
-        right: 5%;
-        top: -90px;
+        width: 250px;
+        max-height: 250px;
+        position: absolute;
+        right: 0;
     }
 }
 
+/* FOOTER */
+
+footer {
+    width: 100%;
+    min-height: 200px;
+    background: #0A1225;
+    bottom: 0;
+}
+
+footer div {
+    margin: 0 auto;
+    width: 90%;
+}
 
 
+footer div ul {
+    float: left;
+    padding-top: 20px;
+    display: inline-block;
+    color:  white;
+    text-transform: uppercase;
+}
 
+footer div ul li {
+    margin-right: 50px;
+    list-style: none;
+    text-align: left;
+}
 
+footer div ul li a {
+    font-size: 0.7em;
+    text-decoration: none;
+    color: inherit;
+    font-weight: 200;
+}
 
+footer div ul li a::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 1px;
+    background-color: white;
+    transition: width .3s;
+}
 
+footer div ul li a:hover:after {
+    width: 100%;
+}
 
-
-
-
-
-
-
-
-
-
+/* AUTRES */
 
 .small-italic {
     font-size: 0.6em;
