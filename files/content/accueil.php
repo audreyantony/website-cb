@@ -1,5 +1,5 @@
 <section id="accueil">
-    <h2>Les séries d'histoires en plusieurs chapitres populaires :</h2>
+    <h2>Les histoires en plusieurs chapitres populaires :</h2>
     <div class="conteneur-flex">
 
         <div class="flex">
@@ -27,7 +27,7 @@
         </div>
     </div>
     <div class="boutonsimple">
-        <a href="#"><button>Voir toute les séries d'histoires</button></a>
+        <a href="#"><button>Voir toute les romans</button></a>
     </div>
     <div class="a-propos">
         <div>

@@ -18,6 +18,7 @@ body {
     font-family: 'Montserrat', sans-serif;
     font-weight: 300;
     text-align: center;
+    color: #0A1225;
 }
 
 /* HEADER */
@@ -95,7 +96,7 @@ header nav ul li a:hover:after {
 #thefreshone {
     width: 100%;
     margin: 0;
-    height: 450px;
+    height: 350px;
     background-blend-mode: multiply;
     background-image:url("../img/openbook.jpg");
     background-color: #0A1225;
@@ -175,9 +176,12 @@ a button:hover {
     font-weight: 200;
     margin: 0 auto;
     padding: 35px;
+    text-decoration: none;
 }
 
-#accueil .conteneur-flex {
+/* CONTENEUR FLEX BOX RÉUTILISABLE */
+
+.conteneur-flex {
     width: 80%;
     display: flex;
     flex-wrap: wrap;
@@ -186,7 +190,7 @@ a button:hover {
     align-content: space-around;
 }
 
-#accueil .conteneur-flex .flex {
+.conteneur-flex .flex {
     width: 250px;
     height: 450px;
     flex: 0 0 auto;
@@ -194,14 +198,14 @@ a button:hover {
     border: 1px solid #0A1225;
 }
 
-#accueil .conteneur-flex .flex h4 {
+.conteneur-flex .flex h4 {
     font-size: 3em;
     font-weight: 400;
     font-style: italic;
     margin-top: -20px;
 }
 
-#accueil .conteneur-flex .flex h3 {
+.conteneur-flex .flex h3 {
     font-size: 2em;
     font-weight: 400;
     padding: 20px;
@@ -209,22 +213,22 @@ a button:hover {
     margin-top: -40px;
 }
 
-#accueil .conteneur-flex .flex h5 {
+.conteneur-flex .flex h5 {
     padding: 0 20px 10px 20px;
     font-weight: 200;
     font-style: italic;
 }
 
-#accueil .conteneur-flex .flex img {
+.conteneur-flex .flex img {
     width: 200px;
     margin-top: -10px;
 }
 
-#accueil .conteneur-flex .flex a button {
+.conteneur-flex .flex a button {
     margin: 10px auto;
 }
 
-#accueil .boutonsimple {
+.boutonsimple {
     width: 30%;
     height: auto;
     margin: 40px auto 50px auto;
@@ -281,7 +285,7 @@ a button:hover {
 
 footer {
     width: 100%;
-    min-height: 200px;
+    min-height: 150px;
     background: #0A1225;
     bottom: 0;
 }
@@ -331,34 +335,96 @@ footer div ul li a:hover:after {
     width: 100%;
     color: white;
     float: right;
-    margin-top: 85px;
+    margin-top: 25px;
 }
 
 .linkandcopyright h3 {
     text-decoration: none;
     font-weight: 200;
     font-size: 0.8em;
-    display: inline-block;
-    float: left;
-    margin: 60px;
-    padding-left: 35px;
+    margin: 5px;
 }
 
-.linkandcopyright div {
-    padding-right: 50px;
-}
-
-.linkandcopyright div a img {
+.linkandcopyright a img {
     width: 40px;
     display: inline-block;
     margin: 20px;
-    float: right;
+}
+
+/* SMALL TITLE */
+
+h3 {
+    font-size: 1.8em;
+    font-weight: 200;
+    margin: 0 auto;
+    padding: 35px;
+    text-decoration: none;
 }
 
 /* AUTRES */
 
 .small-italic {
-    font-size: 0.6em;
-    font-weight: 200;
+    font-size: 0.7em;
+    font-weight: 300;
     font-style: italic;
+}
+
+/* PAGE ARTICLE PARTICULIER */
+
+#content {
+    width: 100%;
+}
+
+#content h1 {
+    width: 100%;
+    background-color: #0A1225;
+    color: white;
+    margin: 0 auto 30px auto;
+    padding: 50px 0;
+    font-size: 2.2em;
+    font-weight: 400;
+    font-style: italic;
+}
+
+#content p {
+    text-align: justify;
+    font-size: 1.3em;
+    font-weight: 300;
+    width: 70%;
+    margin: 50px auto;
+}
+
+#commentaires {
+    width: 70%;
+    margin: 30px auto;
+}
+
+#commentaires h6 {
+    background-color: #0A1225;
+    color: white;
+    width: 90%;
+    height: auto;
+    position: relative;
+    border-radius: 0 50px 50px 50px;
+    font-size: 0.9em;
+    letter-spacing: 2px;
+    font-weight: 200;
+    padding: 20px 40px;
+}
+
+#commentaires h6:before {
+    content: "";
+    position: absolute;
+    right: 100%;
+    top: 0px;
+    width: 0;
+    height: 0;
+    border-top: 0px solid transparent;
+    border-right: 8px solid #0A1225;
+    border-bottom: 8px solid transparent;
+}
+
+#commentaires hr {
+    border: 3px solid transparent;
+    width: 100%;
 }
