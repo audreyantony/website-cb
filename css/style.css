@@ -416,15 +416,38 @@ h3 {
     content: "";
     position: absolute;
     right: 100%;
-    top: 0px;
+    top: 0;
     width: 0;
     height: 0;
-    border-top: 0px solid transparent;
-    border-right: 8px solid #0A1225;
-    border-bottom: 8px solid transparent;
+    border-right: 12px solid #0A1225;
+    border-bottom: 12px solid transparent;
+}
+
+#commentaires form h6 {
+    background-color: #6b7387 ;
+}
+
+#commentaires form h6:before {
+    border-right: 12px solid #6b7387 ;
 }
 
 #commentaires hr {
     border: 3px solid transparent;
     width: 100%;
+}
+
+#commentaires form h6 textarea {
+    width: 90%;
+    height: auto;
+    background-color: #6b7387 ;
+    border: 1px solid white;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 5px;
+    color: white;
+    font-weight: 200;
+    font-size: 1.2em;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    resize: none;
 }

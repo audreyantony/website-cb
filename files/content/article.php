@@ -11,12 +11,19 @@
     </div>
 
     <!-- LISTE DE COMMENTAIRE -->
-    <div id="commentaires">
-        <h6>Ceci est un commentaire court <span class="small-italic"> - AUTEUR</span></h6>
-        <hr>
-        <h6>Ceci est un commentaire de taille moyenne, Ceci est un commentaire de taille moyenne <span class="small-italic"> - AUTEUR</span></h6>
-        <hr>
-        <h6>Ceci est un commentaire extremement long. Ceci est un commentaire extremement long. Ceci est un commentaire extremement long. Ceci est un commentaire extremement long. Ceci est un commentaire extremement long. <span class="small-italic"> - AUTEUR</span></h6>
-        <hr>
+        <div id="commentaires">
+            <form action="" method="post">
+                <h6>Laisser un commentaire : <br>
+                    <textarea></textarea> <br>
+                    <input type="submit">
+                </h6>
+            </form>
+            <hr>
+            <h6>Ceci est un commentaire court <span class="small-italic"> - AUTEUR</span></h6>
+            <hr>
+            <h6>Ceci est un commentaire de taille moyenne, Ceci est un commentaire de taille moyenne <span class="small-italic"> - AUTEUR</span></h6>
+            <hr>
+            <h6>Ceci est un commentaire extremement long. Ceci est un commentaire extremement long. Ceci est un commentaire extremement long. Ceci est un commentaire extremement long. Ceci est un commentaire extremement long. <span class="small-italic"> - AUTEUR</span></h6>
+            <hr>
     </div>
 </div>
