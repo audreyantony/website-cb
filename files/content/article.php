@@ -26,4 +26,8 @@
             <h6>Ceci est un commentaire extremement long. Ceci est un commentaire extremement long. Ceci est un commentaire extremement long. Ceci est un commentaire extremement long. Ceci est un commentaire extremement long. <span class="small-italic"> - AUTEUR</span></h6>
             <hr>
     </div>
+
+    <div class="boutonsimple">
+        <a href="?accueil"><button>Revenir à l'accueil</button></a>
+    </div>
 </div>

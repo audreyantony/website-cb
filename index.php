@@ -11,8 +11,10 @@ if (isset($_GET['accueil'])){
     require_once "files/article.php";
 } else if (isset($_GET['romans'])){
     require_once "files/romans.php";
-} else if (isset($_GET['roman']) && ctype_digit($_GET['roman'])){
+} else if (isset($_GET['roman']) /*&& ctype_digit($_GET['roman'])*/){
     require_once "files/roman.php";
+}else if (isset($_GET['romanchapitre']) && ctype_digit($_GET['romanchapitre'])){
+    require_once "files/romanchapitre.php";
 } else if (isset($_GET['contact'])){
     require_once "files/contact.php";
 } else if (isset($_GET['a-propos'])){

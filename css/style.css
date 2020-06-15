@@ -165,13 +165,13 @@ a button:hover {
 
 /* SECTION ACCUEIL */
 
-#accueil {
+.classique {
     margin-top: 50px;
     width: 100%;
     color: #0A1225;
 }
 
-#accueil h2 {
+.classique h2 {
     font-size: 2em;
     font-weight: 200;
     margin: 0 auto;
@@ -450,4 +450,30 @@ h3 {
     text-decoration: none;
     font-family: 'Montserrat', sans-serif;
     resize: none;
+}
+
+#commentaires form h6 input {
+    margin-top: 10px;
+    background-color: #0A1225;
+    border: none;
+    color: white;
+    padding: 10px 22px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 0.9em;
+    font-weight: 200;
+    letter-spacing: 2px;
+}
+
+#commentaires form h6 input:hover {
+    background-color: white;
+    color: #0A1225;
+}
+
+/* BIGBLUE */
+
+.bigblue {
+    background-color: #0A1225;
+    color: white;
 }

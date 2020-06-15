@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href="https://fonts.googleapis.com/css2?family=Lexend+Tera&family=Montserrat:ital,wght@0,200;0,300;0,400;1,200;1,300;1,400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
-    <title>Claude Buccella | Articles numéro ***</title>
+    <title>Claude Buccella | Roman numéro ***</title>
 </head>
 <body>
 
@@ -18,7 +18,7 @@ require_once "content/header.php"
 
 <!-- CONTENU ARTICLES -->
 <?php
-require_once "content/article.php"
+require_once "content/roman.php"
 ?>
 
 <!-- FOOTER -->
