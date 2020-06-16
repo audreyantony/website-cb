@@ -97,7 +97,7 @@ header nav ul li a:hover:after {
     width: 100%;
     margin: 0;
     height: 350px;
-    background-blend-mode: multiply;
+    background-blend-mode: overlay;
     background-image:url("../img/openbook.jpg");
     background-color: #0A1225;
     background-size: cover;
@@ -523,4 +523,22 @@ h3 {
 .flexlarge .boutonsimple {
     position: absolute;
     right: 115px;
+}
+
+/* A PROPOS */
+
+#content #titreapropos {
+    width: 100%;
+    margin: 0;
+    padding-top: 150px;
+    height: 150px;
+    background-blend-mode: overlay;
+    background-image:url("../img/stylo.jpg");
+    background-color: #0A1225;
+    background-size: cover;
+    color: white;
+}
+
+#content #apropos {
+    width: 60%;
 }
