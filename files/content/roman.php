@@ -1,8 +1,31 @@
 <div id="content">
     <!-- CONTENU DE L'ARTICLE -->
     <h1>Titre du roman</h1>
-    <div>
-        <div></div>
+    <div class="flexboxlarge">
+        <div class="flexlarge">
+            <img src="img/phare.jpg" alt="phare">
+            <h3>Chapitre n°</h3>
+            <h6>Premières lignes lignes ou phrases du chapitre Premières lignes lignes ou phrases du chapitre Premières lignes lignes ou phrases du chapitre Premières lignes lignes ou phrases du chapitre Premières lignes lignes ou phrases du chapitre Premières lignes lignes ou phrases du chapitre </h6>
+            <div class="boutonsimple">
+                <a href="?chapitre"><button>Lire le chapitre</button></a>
+            </div>
+        </div>
+        <div class="flexlarge">
+            <img src="img/livre.jpg" alt="phare">
+            <h3>Chapitre n°</h3>
+            <h6>Premières lignes lignes ou phrases du chapitre Premières lignes lignes ou phrases du chapitre Premières lignes lignes ou phrases du chapitre Premières lignes lignes ou phrases du chapitre Premières lignes lignes ou phrases du chapitre Premières lignes lignes ou phrases du chapitre </h6>
+            <div class="boutonsimple">
+                <a href="#"><button>Lire le chapitre</button></a>
+            </div>
+        </div>
+        <div class="flexlarge">
+            <img src="img/fleur.jpg" alt="phare">
+            <h3>Chapitre n°</h3>
+            <h6>Premières lignes lignes ou phrases du chapitre Premières lignes lignes ou phrases du chapitre Premières lignes lignes ou phrases du chapitre Premières lignes lignes ou phrases du chapitre Premières lignes lignes ou phrases du chapitre Premières lignes lignes ou phrases du chapitre </h6>
+            <div class="boutonsimple">
+                <a href="#"><button>Lire le chapitre</button></a>
+            </div>
+        </div>
     </div>
 
     <div class="boutonsimple">

@@ -477,3 +477,50 @@ h3 {
     background-color: #0A1225;
     color: white;
 }
+
+/* FLEX BOX LARGE */
+
+.flexboxlarge {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: space-around;
+    width: 100%;
+}
+
+.flexlarge {
+    width: 70%;
+    height: 250px;
+    flex: 0 0 auto;
+    margin: 20px;
+    border: 1px solid #0A1225;
+}
+
+.flexlarge img {
+    height: 250px;
+    width: auto;
+    float: left;
+}
+
+.flexlarge h3 {
+    text-align: left;
+    margin: 10px 0 0 230px;
+}
+
+.flexlarge h6 {
+    font-size: 0.9em;
+    text-decoration: none;
+    font-weight: 200;
+    text-align: justify;
+    padding: 0 20px 0 20px;
+    margin-top: -20px;
+    max-height: 50px;
+    overflow: hidden;
+}
+
+.flexlarge .boutonsimple {
+    position: absolute;
+    right: 115px;
+}
